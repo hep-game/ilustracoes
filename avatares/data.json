@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Boizão",
+        "imagem": "avatar_boizao.png"
+    },
+	{
+        "nome": "Menina",
+        "imagem": "avatar_menina.png"
+    },
+	{
+        "nome": "Menino",
+        "imagem": "avatar_menino.png"
+    }
+]
