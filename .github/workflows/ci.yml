@@ -13,8 +13,7 @@ jobs:
       - name: 'Export "cartas" directory to "hep-game.github.io" repository 🚀'
         uses: leigholiver/commit-with-deploy-key@v1.0.3
         with:
-          deploy_key: ${{ secrets.SSH_DEPLOY_KEY }}
-          source: 'cartas/'
+          source: 'cartas'
           destination_repo: 'hep-game/hep-game.github.io'
           destination_branch: 'main'
           destination_folder: 'src/assets/cards'
@@ -22,3 +21,4 @@ jobs:
           git_username: 'andremaravilha'
           git_email: 'andre.maravilha@outlook.com'
           commit_message: 'Atualiza cartas a partir de "ilustracoes"'
+          deploy_key: ${{ secrets.SSH_DEPLOY_KEY }}
