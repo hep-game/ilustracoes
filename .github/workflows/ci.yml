@@ -10,6 +10,8 @@ jobs:
   build:
     runs-on: 'ubuntu-latest'
     steps:
+      - name: 'Checkout 🛎️'
+        uses: 'actions/checkout@v2'
       - name: 'Export "cartas" directory to "hep-game.github.io" repository 🚀'
         uses: leigholiver/commit-with-deploy-key@v1.0.3
         with:
